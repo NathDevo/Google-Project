@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: rgb(238, 238, 238);
+    height: 60px;
+}
+.logo img{
+display: flex;
+width: 90px;
+height: 30px;
+margin-left: 15px;
+}
+.links{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: flex-end;
+}
+a{
+    display: flex;
+    margin:5px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+}
+a:hover{
+    color: black;
+}
+.head{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45px;
+    cursor: default;
+    font-size: 20px;
+    color: rgb(228, 15, 15);
+}
+
+form{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 45px;
+    color: rgb(44, 44, 44);
+}
+.all{
+    margin-top: 15px;
+    font-size: 13px;
+}
+#form{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0px 1px 0;
+    outline: none;
+    width: 55%;
+    max-width: 690px;
+    height: 28px;
+    text-indent: 5px; 
+}
+#form:hover{
+    box-shadow: 0 0px 2px 0 blue;
+}
+#form2{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0px 1px 0;
+    outline: none;
+    width: 25.4%;
+    height: 28px;
+    text-indent: 5px;
+}
+#form2:hover{
+    box-shadow: 0 0px 2px 0 blue;
+}
+#tag1{
+    margin-right: 90px;
+}
+#tag2{
+    margin-right: 32px;
+}
+#tag3{
+    margin-right: 79px;
+}
+#tag4{
+    margin-right: 71px;
+}
+#tag5{
+    margin-right: 50px;
+}
+
+#submit{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 130px;
+    margin: 10px;
+    right: 70px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 2px;
+    color: white;
+    background: rgb(38, 111, 207);
+    cursor: pointer;
+}
